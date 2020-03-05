@@ -24,6 +24,7 @@ class YourClass{
   *
   * @return string
   */
+	 csrf()
    public function Sum($a,$b){
 			return $a+$b;
    }
