@@ -1,5 +1,5 @@
 {
-    "name": "Cuong/Time",
+    "name": "cuong/time",
     "description": "Boilerplate package for creating other packages.",
     "keywords": ["template", "composer", "package"],
     "license": "DBAD",
