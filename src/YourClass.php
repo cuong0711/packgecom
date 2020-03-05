@@ -1,5 +1,5 @@
 <?php
- namespace Buonzz\Template;
+ namespace Cuong\Time;
 
 /**
 *  A sample class
