@@ -1,5 +1,5 @@
 <?php
- namespace Asi\TimeNow;
+ namespace Asi\Time3333;
 
 /**
 *  A sample class
