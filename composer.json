@@ -1,5 +1,5 @@
 {
-    "name": "buonzz/composer-library-template",
+    "name": "asi/time3333",
     "description": "Boilerplate package for creating other packages.",
     "keywords": ["template", "composer", "package","csrf","token","security"],
 
@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Asi\\TimeNow\\": "src/"
+            "Asi\\Time3333\\": "src/"
         }
     }
 }
