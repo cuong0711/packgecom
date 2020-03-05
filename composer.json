@@ -1,5 +1,5 @@
 {
-    "name": "buonzz/composer-library-template",
+    "name": "Cuong/Time",
     "description": "Boilerplate package for creating other packages.",
     "keywords": ["template", "composer", "package"],
     "license": "DBAD",
