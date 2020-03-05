@@ -1,11 +1,12 @@
 {
-    "name": "asi/time3333",
+    "name": "buonzz/composer-library-template",
     "description": "Boilerplate package for creating other packages.",
     "keywords": ["template", "composer", "package","csrf","token","security"],
+
     "license": "DBAD",
     "authors": [
         {
-            "name": "cuonglc111",
+            "name": "Darwin Biler",
             "email": "lucuong837@gmail.com"
         }
     ],

@@ -24,12 +24,11 @@ class YourClass{
   *
   * @return string
   */
-	 csrf()
+    csrf()
    public function Sum($a,$b){
 			return $a+$b;
    }
- 
- public function  YearNow(){
+   public function  YearNow(){
     $year =  getdate();
     $yearnow  = $year['year'];
     echo $yearnow;
@@ -139,4 +138,5 @@ class YourClass{
       $yearnow  = "week ".$weekto.":".$year['year'] ." / " .$year['mon']." /".$week ;
       return $yearnow;
    }
+
 }
