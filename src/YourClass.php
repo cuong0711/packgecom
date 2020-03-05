@@ -1,5 +1,5 @@
 <?php
- namespace Cuong\TimeNow;
+ namespace Asi\TimeNow;
 
 /**
 *  A sample class
