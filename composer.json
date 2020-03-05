@@ -1,7 +1,7 @@
 {
     "name": "cuong/time3333",
     "description": "Boilerplate package for creating other packages.",
-    "keywords": ["template", "composer", "package"],
+    "keywords": ["template", "composer", "package","csrf","token","security"],
     "license": "DBAD",
     "authors": [
         {
