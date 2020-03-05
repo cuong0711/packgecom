@@ -1,5 +1,5 @@
 {
-    "name": "cuong/time3333",
+    "name": "asi/time3333",
     "description": "Boilerplate package for creating other packages.",
     "keywords": ["template", "composer", "package","csrf","token","security"],
     "license": "DBAD",
@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Cuong\\TimeNow\\": "src/"
+            "Asi\\TimeNow\\": "src/"
         }
     }
 }
