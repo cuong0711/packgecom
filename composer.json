@@ -3,7 +3,7 @@
     "description": "Boilerplate package for creating other packages.",
     "keywords": ["template", "composer", "package","csrf","token","security"],
 
-    "license": "DBAD",
+    "license": "MIT",
     "authors": [
         {
             "name": "cuonglc111",
