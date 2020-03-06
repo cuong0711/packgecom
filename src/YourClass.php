@@ -163,5 +163,41 @@ class YourClass{
       $yearnow  = "week ".$weekto.":".$year['year'] ." / " .$year['mon']." /".$week ;
       return $yearnow;
    }
+  public function seachweeck($weeksare){
+     $date = date('Y-m-d');
+       while (date('w', strtotime($date)) != 1) {
+         $tmp = strtotime('-1 day', strtotime($date));
+        $date = date('Y-m-d', $tmp);
+     }
 
+  $week = date('W', strtotime($date));
+  if($weeksare<$week){
+    $weekhi = $week - $weeksare;
+    $day  = $weekhi*7;
+      $year =  getdate();
+       $dayweekyes = date('Y-m-d', strtotime($date. ' - '.$day.' days'));
+
+      $yearnow  = "week ".$weeksare.":".$dayweekyes ;
+      return $yearnow;
+
+   }
+   else{
+        $weekhi = $weeksare-$week ;
+    $day  = $weekhi*7;
+      $year =  getdate();
+  
+           $dayweekyes = date('Y-m-d', strtotime($date. ' +'.$day.' days'));
+
+      $yearnow  = "week ".$weeksare.":".$dayweekyes ;
+      return $yearnow;
+
+   }
+  }
+  public function  seachTwo($date){
+     $date = strtotime($date);
+    $date = date("l", $date);
+    $date = strtolower($date);
+    return $date;
+   
+  }
 }
