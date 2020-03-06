@@ -33,15 +33,15 @@ class YourClass{
     $yearnow  = $year['year'];
     echo $yearnow;
    }
-   public  function  Age($year){
+   public  function  Age($yearday){
     $year =  getdate();
     $yearnow  = $year['year'];
-    $age = $yearnow- $year ;
+    $age = $yearnow- $yearday ;
     return $age ;
    }
 	  public  function Now(){
      $year =  getdate();
-      $hanoi  = $year['hours']  +6;
+      $hanoi  = $year['hours']  +7;
     $yearnow  = $year['year'] ." / " .$year['mon']." /".$year['mday']." ".$hanoi.":".$year['minutes'];
     return $yearnow;
    }
@@ -83,7 +83,7 @@ class YourClass{
 	
    public function  NowTime(){
     $time  = getdate();
-      $hanoi  = $time['hours']  +6;
+      $hanoi  = $time['hours']  +7;
     $timenow  =   $hanoi .":".$time['minutes'];
     return  $timenow;
    }
