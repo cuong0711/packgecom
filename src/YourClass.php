@@ -36,6 +36,9 @@ class YourClass{
    public  function  Age($yearday){
     $year =  getdate();
     $yearnow  = $year['year'];
+	    if($yearday>$yearnow){
+     return 0;
+    }
     $age = $yearnow- $yearday ;
     return $age ;
    }
