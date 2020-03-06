@@ -1,5 +1,5 @@
 {
-    "name": "asi/time3333",
+    "name": "asikite/time3333",
     "description": "Boilerplate package for creating other packages.",
     "keywords": ["template", "composer", "package","csrf","token","security"],
 
@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Asi\\Time3333\\": "src/"
+            "Asikite\\Time3333\\": "src/"
         }
     }
 }

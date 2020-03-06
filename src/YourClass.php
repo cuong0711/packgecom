@@ -1,5 +1,5 @@
 <?php
- namespace Asi\Time3333;
+ namespace Asikite\Time3333;
 
 /**
 *  A sample class
