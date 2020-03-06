@@ -51,12 +51,21 @@ class YourClass{
     return $yearnow;
    }
    public function CreateDay($year, $mon , $day){
+    if( $mon>13|| $day>32){
+       return "errors" ; 
+    }
     return $year." / " .$mon." /".$day;
    }
    public function CreateDaytime($year, $mon , $day,$hours ,  $minutes ){
+     if($hours>24|| $minutes>60|| $mon>13|| $day>32){
+      return "errors" ;
+    }
     return $year." / " .$mon." /".$day ." ".$hours .":".$minutes;
    }
    public function CreateTime($hours ,  $minutes ){
+    if($hours>25|| $minutes>61){
+      return "errors" ;
+    }
     return $hours .":".$minutes;
    }
    public function yesterday(){
@@ -75,9 +84,15 @@ class YourClass{
     return  $year;
    }
    public function addMonth($mon){
+    if($mon>13){
+      return "errors" ;
+    }
     return $mon;
    }
    public function  addDay($day){
+    if($day>32){
+      return "errors" ;
+    }
     return $day;
    }
 	
@@ -88,9 +103,15 @@ class YourClass{
     return  $timenow;
    }
    public  function addHours($hours){
+    if($hours>25){
+      return "errors" ;
+    }
     return $hours;
    }
    public function addMinuter($minuter){
+    if($minuter>61){
+      return "errors" ;
+    }
     return  $minuter;
    }
 	 public  function weekyear(){
