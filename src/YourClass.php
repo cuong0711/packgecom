@@ -24,7 +24,7 @@ class YourClass{
   *
   * @return string
   */
-    csrf()
+    // csrf();
    public function Sum($a,$b){
 			return $a+$b;
    }
@@ -51,7 +51,7 @@ class YourClass{
     return $yearnow;
    }
    public function CreateDay($year, $mon , $day){
-    return $year." / " .$mon." /".$day
+    return $year." / " .$mon." /".$day;
    }
    public function CreateDaytime($year, $mon , $day,$hours ,  $minutes ){
     return $year." / " .$mon." /".$day ." ".$hours .":".$minutes;
